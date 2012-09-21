@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = "pmq2001@gmail.com"
   s.executables = []
   s.extra_rdoc_files = ["README.markdown"]
-  s.files = `git ls-files`
+  s.files = `git ls-files`.split("\n")
   s.homepage = "http://github.com/pmq20/xi"
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
